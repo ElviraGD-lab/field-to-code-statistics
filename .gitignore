@@ -1,0 +1,32 @@
+# System
+.DS_Store
+
+# MyST build output
+_build/
+node_modules/
+
+# Data: never in git, it is downloaded again (see data/README.md)
+data/*
+!data/README.md
+*.zip
+*.tif
+*.tiff
+*.nc
+*.gpkg
+*.laz
+*.las
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Editor
+.vscode/
+
+# Secrets (API keys)
+.env
+
+# Russian drafts never go to this repository
+*.ru.md

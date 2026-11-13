@@ -1,0 +1,38 @@
+# Conda environment for the book "From Field to Code: Spatial Statistics from Scratch".
+# Create:   conda env create -f environment.yml
+# Lock:     conda env export --no-builds > environment.lock.yml   (exact versions actually installed)
+# VS Code:  select the interpreter "field-to-code-statistics" (Python: Select Interpreter).
+name: field-to-code-statistics
+channels:
+  - conda-forge
+  - nodefaults        # never mix in the 'defaults' channel
+dependencies:
+  - python=3.12
+  # tables and numbers
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  # plots
+  - matplotlib
+  - seaborn
+  # spatial data
+  - geopandas
+  - pyogrio
+  - rasterio
+  - rioxarray
+  - rasterstats
+  # machine learning
+  - scikit-learn
+  # spatial statistics (PySAL and geostatistics)
+  - libpysal
+  - esda
+  - spreg
+  - pointpats
+  - scikit-gstat
+  - pykrige
+  # reading Excel tables
+  - openpyxl
+  - xlrd
+  # run code cell by cell in VS Code
+  - ipykernel

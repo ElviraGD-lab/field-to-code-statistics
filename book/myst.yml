@@ -1,0 +1,38 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: field-to-code-statistics
+  title: "From Field to Code: Spatial Statistics from Scratch"
+  subtitle: "Del campo al código: estadística espacial desde cero"
+  description: >-
+    An open book that teaches spatial statistics in Python from scratch:
+    first the foundations of statistics, then the statistics of points,
+    surfaces and areas, always on real data from Asturias (Spain) and the
+    Pajares project on forests, storms and power lines. Spanish and English.
+  keywords:
+    - spatial statistics
+    - estadística espacial
+    - statistics
+    - Python
+    - geostatistics
+    - geospatial data science
+    - Asturias
+  authors:
+    - name: Elvira Gayanova
+      orcid: 0009-0002-4252-311X
+  license:
+    content: CC-BY-4.0
+    code: Apache-2.0
+  github: https://github.com/ElviraGD-lab/field-to-code-statistics
+  toc:
+    - file: index.md
+    - title: Español
+      children:
+        - file: es/index.md
+    - title: English
+      children:
+        - file: en/index.md
+site:
+  template: book-theme
+  options:
+    logo_text: From Field to Code
