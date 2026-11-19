@@ -36,3 +36,4 @@ site:
   template: book-theme
   options:
     logo_text: From Field to Code
+    folders: true

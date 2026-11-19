@@ -30,7 +30,9 @@ dependencies:
   - spreg
   - pointpats
   - scikit-gstat
-  - pykrige
+  - gstools          # kriging and random fields
+  # download the book data package
+  - pooch
   # reading Excel tables
   - openpyxl
   - xlrd

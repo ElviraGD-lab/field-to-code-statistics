@@ -1,6 +1,6 @@
 # Data passport
 
-The data are not stored in this repository. This file says, for every dataset the book uses, where it comes from, under which licence, when it was downloaded and how to get it again.
+The data are not stored in this repository. Small derived files that the chapters need will be published as an open **data package** on Zenodo, with a DOI, and the chapter scripts download it automatically. This file says, for every dataset the book uses, where it comes from, under which licence, when it was downloaded and how to get it again.
 
 The working coordinate system of the book is **ETRS89 / UTM zone 30N (EPSG:25830)**. Layers stored in WGS 84 (EPSG:4326) are reprojected in the code before any distance or area is measured.
 
