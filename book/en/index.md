@@ -8,4 +8,6 @@ This book teaches spatial statistics in Python to readers who have never studied
 
 The code in every chapter can be copied and run as it is.
 
+Start with [About this book](about.md) and the [Prologue](00-prologue.md).
+
 *Work in progress. Chapters are published as they are written.*

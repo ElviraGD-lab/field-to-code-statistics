@@ -29,9 +29,13 @@ project:
     - title: Español
       children:
         - file: es/index.md
+        - file: es/about.md
+        - file: es/00-prologue.md
     - title: English
       children:
         - file: en/index.md
+        - file: en/about.md
+        - file: en/00-prologue.md
 site:
   template: book-theme
   options:

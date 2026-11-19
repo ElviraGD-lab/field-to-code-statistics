@@ -8,4 +8,6 @@ Este libro enseña estadística espacial con Python a quien nunca ha estudiado e
 
 El código de cada capítulo se puede copiar y ejecutar tal cual.
 
+Empieza por [Sobre el libro](about.md) y el [Prólogo](00-prologue.md).
+
 *Libro en elaboración. Los capítulos se publican a medida que se escriben.*
