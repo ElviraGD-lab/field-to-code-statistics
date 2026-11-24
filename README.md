@@ -2,6 +2,8 @@
 
 **Del campo al código: estadística espacial desde cero**
 
+Read the book: https://elviragd-lab.github.io/field-to-code-statistics/ · The series: https://elviragd-lab.github.io
+
 An open book on **spatial statistics in Python**, written for engineers and field specialists who have never studied statistics. It starts with the foundations (looking at data, describing it, probability, intervals, tests, models) and moves step by step into spatial statistics: point patterns, geostatistics and areal data.
 
 Book 3 of the *From Field to Code* series. Written in Spanish and English.
@@ -11,6 +13,10 @@ Book 3 of the *From Field to Code* series. Written in Spanish and English.
 ## The data
 
 Every chapter works on real open data from Asturias (Spain), most of it from the Pajares project on forests, storms and power lines: national LiDAR and elevation models, power line towers and spans, wildfire detections, weather records and municipal boundaries. Sources and licences are listed in [`data/README.md`](data/README.md).
+
+## Found a mistake?
+
+Please open an issue. How to do it: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Run the code
 
