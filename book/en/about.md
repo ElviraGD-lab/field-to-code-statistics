@@ -6,7 +6,7 @@ title: "About this book: what we learn, which tools we use and who it's for"
 
 This book is for engineers and technicians who have worked in the field and now want to work with spatial data the way companies do today. Surveyors, foresters, power engineers, GIS specialists: people who know their own field inside out, but who never studied statistics (or forgot it long ago) and don't write code.
 
-No prior knowledge is needed. Python from scratch is covered in the first book of the series, *PyQGIS from Scratch*. Here we simply use it, and we explain every new line as it comes.
+No prior knowledge is needed. The Python language itself is covered from scratch, inside QGIS, in the first book of the series, *PyQGIS from Scratch*. Here we learn from scratch how to run Python outside QGIS (conda, VS Code, code cell by cell), and we explain every new line as it comes.
 
 ## What we learn
 

@@ -6,7 +6,7 @@ title: "Prologue: Which numbers can we trust?"
 
 Winter came early to Pajares at the end of October 2018. Heavy snow fell while the trees were still in leaf. The snow clung to the crowns, and the trees couldn't take the weight: they snapped, were torn out by the roots and fell straight onto the lines. They blocked the roads too, so the electricians and the snowploughs struggled even to reach the faults [1, 2].
 
-On the third day, Viesgo still had 679 customers without power: 384 in Pajares, 79 in upper Casomera and 224 in upper Tuiza. EDP had another 4,000 customers off supply [1].
+On the third day, Viesgo still had 679 customers without power: 384 in Pajares, 79 in upper Casomera and 224 in upper Tuiza (by place this adds up to 687; that is how the source gives it). EDP had another 4,000 customers off supply [1].
 
 And this was already the second time that year. Back in February, Asturias's 112 emergency service had also linked outages to fallen trees and landslides. That time, around 10,000 customers lost power. Repairs were held up by the same things: fallen trees, landslides and passes closed by snow [3].
 

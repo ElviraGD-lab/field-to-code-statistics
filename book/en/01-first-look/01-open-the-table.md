@@ -17,7 +17,7 @@ Before we open the file, it helps to know where we are in the work. Statistician
 4. **Analysis.** Tables, charts, calculations.
 5. **Conclusion.** The answer to the question, and what the data can't tell us.
 
-The most common beginner's mistake is to jump straight to step four and start calculating. But if we haven't understood what each column means, any calculation can turn out to be meaningless. Remember the steelworks in the prologue that turned out to be the 'main fire hotspot'? That's exactly what happens when we skip step three.
+The most common beginner's mistake is to jump straight to step four and start calculating. But if we haven't understood what each column means, any calculation can turn out to be meaningless. Let's recall the steelworks in the prologue that turned out to be the 'main fire hotspot'. That's exactly what happens when we skip step three.
 
 Today we're on step three: we open the table and work out what's in it.
 
@@ -47,7 +47,7 @@ We work in VS Code with the `field-to-code-statistics` environment. It already h
 
 1. In VS Code, we open the project folder: **File → Open Folder…** → `field-to-code-statistics`.
 2. In the `code` folder, we create a new file, `ch01_first_look.py`.
-3. We choose the environment: **Cmd+Shift+P** → **Python: Select Interpreter** → `field-to-code-statistics`.
+3. We choose the environment: **Cmd+Shift+P** on a Mac or **Ctrl+Shift+P** on Windows and Linux → **Python: Select Interpreter** → `field-to-code-statistics`.
 
 We'll run the code bit by bit, in cells. A cell starts with the line `# %%`. Above it, VS Code shows a **Run Cell** button. We click it, and the result appears on the right, in the **Interactive** window. This makes it easy to look at the data step by step instead of running the whole file at once.
 
@@ -56,7 +56,7 @@ If we don't have the environment yet, we can set it up in a few minutes.
 
 1. We install conda – a program that installs Python and libraries and keeps them separate for each project. The easiest way is to install Miniforge: https://conda-forge.org/download/
 2. We make one folder for the whole project, for example `my-project`, and inside it a `data` folder for the data and a `code` folder for scripts. We keep all the project files here and only here, so the paths in the code don't break.
-3. In Terminal, we create an environment with the libraries we need and switch it on:
+3. In a terminal (on Windows, in Miniforge Prompt), we create an environment with the libraries we need and switch it on:
 
    ```bash
    conda create -n my-project -c conda-forge python=3.12 pandas ipykernel
@@ -243,7 +243,7 @@ The table looks fit to work with. But we've only looked at five rows out of 33.
 
 ## If something doesn't work
 
-- **`FileNotFoundError`** – Python couldn't find the file. It's almost always a typo in the path, or the file is in a different folder. We check the path: we print `towers_file` and compare it with where the file actually is in Finder.
+- **`FileNotFoundError`** – Python couldn't find the file. It's almost always a typo in the path, or the file is in a different folder. We check the path: we print `towers_file` and compare it with where the file actually is in the computer's folders (Finder on a Mac, File Explorer on Windows).
 - **`ModuleNotFoundError: No module named 'pandas'`** – the wrong environment is selected. We go back to **Python: Select Interpreter** → `field-to-code-statistics`.
 - **There's no Run Cell button** – Microsoft's Python and Jupyter extensions aren't installed in VS Code. We install them in the **Extensions** tab.
 

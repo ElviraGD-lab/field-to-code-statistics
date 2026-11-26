@@ -17,7 +17,7 @@ Antes de abrir el archivo, conviene saber en qué punto del trabajo estamos. Los
 4. **Análisis.** Tablas, gráficos, cálculos.
 5. **Conclusión.** La respuesta a la pregunta, y lo que los datos no pueden decirnos.
 
-El error más común al empezar es saltar directamente al cuarto paso y ponerse a calcular. Pero si no hemos entendido qué significa cada columna, cualquier cálculo puede acabar sin sentido. ¿Te acuerdas de la siderúrgica del prólogo que resultaba ser «el principal foco de incendios»? Eso es justo un tercer paso que nos saltamos.
+El error más común al empezar es saltar directamente al cuarto paso y ponerse a calcular. Pero si no hemos entendido qué significa cada columna, cualquier cálculo puede acabar sin sentido. Recordemos la siderúrgica del prólogo que resultaba ser «el principal foco de incendios». Eso es justo un tercer paso que nos saltamos.
 
 Hoy estamos en el tercer paso: abrimos la tabla y vemos qué hay en ella.
 
@@ -47,7 +47,7 @@ Trabajamos en VS Code con el entorno `field-to-code-statistics`. En él ya está
 
 1. Abrimos en VS Code la carpeta del proyecto: **File → Open Folder…** → `field-to-code-statistics`.
 2. En la carpeta `code` creamos un archivo nuevo, `ch01_first_look.py`.
-3. Elegimos el entorno: **Cmd+Shift+P** → **Python: Select Interpreter** → `field-to-code-statistics`.
+3. Elegimos el entorno: **Cmd+Shift+P** en Mac o **Ctrl+Shift+P** en Windows y Linux → **Python: Select Interpreter** → `field-to-code-statistics`.
 
 Vamos a ejecutar el código a trozos, por celdas. Una celda empieza con la línea `# %%`. Encima, VS Code muestra el botón **Run Cell**. Lo pulsamos y el resultado aparece a la derecha, en la ventana **Interactive**. Así es cómodo mirar los datos paso a paso, en vez de ejecutar todo el archivo de golpe.
 
@@ -56,7 +56,7 @@ Si todavía no tienes el entorno, se crea en unos minutos.
 
 1. Instalamos conda, un programa que instala Python y las bibliotecas y las mantiene separadas para cada proyecto. Lo más sencillo es instalar Miniforge: https://conda-forge.org/download/
 2. Creamos una sola carpeta para todo el proyecto, por ejemplo `my-project`, y dentro una carpeta `data` para los datos y otra `code` para los scripts. Guardamos todos los archivos del proyecto solo aquí; así las rutas del código no se rompen.
-3. En el Terminal creamos el entorno con las bibliotecas necesarias y lo activamos:
+3. En el terminal (en Windows, en Miniforge Prompt) creamos el entorno con las bibliotecas necesarias y lo activamos:
 
    ```bash
    conda create -n my-project -c conda-forge python=3.12 pandas ipykernel
@@ -243,7 +243,7 @@ La tabla parece apta para trabajar. Pero solo hemos mirado cinco filas de 33.
 
 ## Si algo falla
 
-- **`FileNotFoundError`**: Python no ha encontrado el archivo. Casi siempre es una errata en la ruta o el archivo está en otra carpeta. Comprobamos la ruta: imprimimos `towers_file` y la comparamos con el sitio donde está el archivo en el Finder.
+- **`FileNotFoundError`**: Python no ha encontrado el archivo. Casi siempre es una errata en la ruta o el archivo está en otra carpeta. Comprobamos la ruta: imprimimos `towers_file` y la comparamos con el sitio donde está el archivo en las carpetas del ordenador (Finder en Mac, Explorador de archivos en Windows).
 - **`ModuleNotFoundError: No module named 'pandas'`**: el entorno elegido no es el correcto. Volvemos a **Python: Select Interpreter** → `field-to-code-statistics`.
 - **No aparece el botón Run Cell**: en VS Code no están instaladas las extensiones Python y Jupyter de Microsoft. Se instalan en la pestaña **Extensions**.
 

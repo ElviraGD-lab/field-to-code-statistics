@@ -6,7 +6,7 @@ title: "Prólogo. ¿De qué números podemos fiarnos?"
 
 A finales de octubre de 2018, el invierno llegó pronto a Pajares. Nevó con fuerza cuando los árboles todavía tenían las hojas. La nieve se pegaba a las copas, los árboles no aguantaban el peso, se partían, se arrancaban de raíz y caían sobre las líneas. Esos mismos árboles cortaron las carreteras, y a los electricistas, con las quitanieves, les costaba hasta llegar al lugar de la avería [1, 2].
 
-Al tercer día, Viesgo todavía tenía 679 clientes sin luz: 384 en Pajares, 79 en la parte alta de Casomera y 224 en la parte alta de Tuiza. EDP tenía otros 4000 [1].
+Al tercer día, Viesgo todavía tenía 679 clientes sin luz: 384 en Pajares, 79 en la parte alta de Casomera y 224 en la parte alta de Tuiza (por lugares suman 687; así lo da la fuente). EDP tenía otros 4000 [1].
 
 Y era ya la segunda vez ese año. En febrero, el 112 Asturias también había relacionado los cortes con árboles caídos y desprendimientos de tierra. Entonces se quedaron sin luz unos 10 000 abonados. Lo que retrasaba las reparaciones eran, otra vez, los árboles caídos, los desprendimientos y los puertos cerrados por la nieve [3].
 

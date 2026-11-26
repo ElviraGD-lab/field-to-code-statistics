@@ -6,7 +6,7 @@ title: "Sobre el libro: qué aprendemos, con qué herramientas y para quién"
 
 Para ingenieros y técnicos que han trabajado en campo y quieren trabajar con datos espaciales como se hace hoy en las empresas. Para topógrafos, técnicos forestales, profesionales del sector eléctrico y especialistas en SIG: gente que conoce bien su terreno, pero que nunca ha estudiado estadística, o la tiene olvidada, y no programa.
 
-No hace falta saber nada de antemano. Python se explica desde cero en el primer libro de la serie, *PyQGIS from Scratch*. Aquí nos limitamos a usarlo, y explicamos cada línea nueva.
+No hace falta saber nada de antemano. El lenguaje Python se explica desde cero, dentro de QGIS, en el primer libro de la serie, *PyQGIS from Scratch*. Aquí aprendemos desde cero a ejecutar Python fuera de QGIS (conda, VS Code, código por celdas) y explicamos cada línea nueva.
 
 ## Qué aprendemos
 
